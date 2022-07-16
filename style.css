@@ -137,12 +137,12 @@ nav .fas{
 
 
 .servicos{
-	background: #101010;
+	background: white;
 	width: 100%;
 	padding: 100px 0px;
 }
 .titulo h2{
-	color: white;
+	color: black;
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
@@ -150,9 +150,9 @@ nav .fas{
     
 }
 
-.titulo1 h2{
-	color: white;
-	font-size: 40px;
+.titulo1 h2 {
+    color: white;
+	font-size: 45px;
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
@@ -171,6 +171,8 @@ nav .fas{
 	justify-content: center;
 	align-items: center;
 	min-height: 400px;
+    left: 200px;
+    top: 150px;
 }
 
 
@@ -186,70 +188,6 @@ nav .fas{
 	text-align: center;
 }
 
-.card1{
-	height: flex;
-	width: flex;
-	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-}
-
-.card2{
-	height: 450px;
-	width: 1500px;
-	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-}
-
-.card3{
-	height: flex;
-	width: flex;
-	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-    
-}
-
-.card4{
-	height: flex;
-	width: flex;
-	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-    
-}
-
-.card5{
-	height: flex;
-	width: flex;
-	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-    
-}
-
-
 
 .card i{
 	font-size: 50px;
@@ -259,6 +197,11 @@ nav .fas{
 	color: goldenrod;
 
 }
+
+
+
+
+
 h5{
 	color: goldenrod;
 	font-size: 23px;
@@ -309,11 +252,9 @@ h5{
 
 
 
-@media(max-width: 900px){
+@media(max-width: 700px){
     
-    
-
-
+   
     nav img{
         width: 150px;
     
@@ -348,69 +289,60 @@ h5{
 
     }
 
-    .text-box{
-        width: 100%;
+    .titulo1 h2{
         color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        font-size: 30px;
+        width: 100%;
+        margin: 30px auto;
         text-align: center;
         
     }
-    .text-box h1{
-        font-size: 35px;
     
-    }
-    
-    .text-box span {
-        font-size: 20px;
-        color: goldenrod;
-    }
-    
-    .text-box p{
-        margin: 10px 0 40px;
-        font-size: 20px;
+    .titulo1 h4{
         color: white;
-    
+        font-size: 15px;
+        width: 100%;
+        margin: 30px auto;
+        text-align: center;
+        
     }
 
+    .titulo h2{
+        color: black;
+        font-size: 30px;
+        width: 100%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    
+    
+   
+    .card{
+        height: flex;
+        width: flex;
+        padding: 20px 35px;
+        background: #191919;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .card i{
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color: goldenrod;
+    
+    }
+    
     .servicos{
-        background: #101010;
+        background: white;
         width: 100%;
         padding: 100px 0px;
     }
-    .titulo h2{
-        color: white;
-        font-size: 35px;
-        width: 1130px;
-        margin: 30px auto;
-        text-align: center;
-    }
-
-    .titulo1 h2{
-        color: white;
-        font-size: 20px;
-        width: 200px;
-        margin: 30px auto;
-        text-align: center;
-    }
-
-    .titulo1 h4{
-        color: white;
-        font-size: 14px;
-        width: 200px;
-        margin: 10px auto;
-        text-align: center;
-    }
-
-  
-
-   
-
-
-
-
 
 
 
